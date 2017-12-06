@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1984001720374292}
+  m_IsPrefabParent: 1
+--- !u!1 &1984001720374292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4254982397800804}
+  - component: {fileID: 114078347489856014}
+  m_Layer: 0
+  m_Name: LootGenerator
+  m_TagString: LootDropper
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4254982397800804
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1984001720374292}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.0572559, y: 0.36185414, z: 0.011281629}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114078347489856014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1984001720374292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78310e34cc832b745934f56299a11c4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rings:
+  - {fileID: 1309923478481522, guid: 6a2fd0ab751516843a063632ee215943, type: 2}
+  - {fileID: 1749869994884848, guid: 51f84fbe82932b04b9d572bbd4060c77, type: 2}
+  - {fileID: 1175484327698526, guid: 06fb185f02db71e47bea695faf3da8ce, type: 2}
+  - {fileID: 1953519159022676, guid: 344a9d9fd7a38ce438d4f0e0994cd7b1, type: 2}
+  - {fileID: 1280203780975940, guid: 322f5f6b1eb3615469e0342b304bee67, type: 2}
+  - {fileID: 1556519260922576, guid: f3016fb481fcb4947b253cc7c4f620d1, type: 2}
+  amulets:
+  - {fileID: 1099646140011246, guid: 98453b81970cd0041b4aca6c8aaae0ff, type: 2}
+  - {fileID: 1619292549749410, guid: f4abf8ce20dd803488312ce70f8c50bb, type: 2}
+  - {fileID: 1835256891489478, guid: 744fc0e73f827c34f90a2dbad2c73bbf, type: 2}
+  - {fileID: 1084832538964134, guid: 488997ad17739654691af21c978c3e19, type: 2}
+  gems:
+  - {fileID: 1318760990210878, guid: 7ccbfd4fec8d38348a05e6ab98ad101c, type: 2}
+  - {fileID: 1294460669131894, guid: 216f30c3cf7e8c143a6a41c268a86cb6, type: 2}
+  - {fileID: 1676324539790190, guid: ad58706c9e7136b469ca9206233e3daa, type: 2}
+  - {fileID: 1069022344067118, guid: baa31c5b2f7bded4b9f5258bb0b7f331, type: 2}
+  - {fileID: 1850587171046908, guid: 46b23df856d02144a9c1df1576464689, type: 2}
+  - {fileID: 1450603910308892, guid: 11746338c683b37409f8d3a5c000a504, type: 2}
+  bracers:
+  - {fileID: 1433219320135884, guid: 78d04e7799049bf4bbc5aa5d1f4ae30a, type: 2}
+  - {fileID: 1562266687922198, guid: 6967a6eb14be0b34fa6345fda9dd8cbf, type: 2}
+  - {fileID: 1097936808891382, guid: 3f0b2b745ffeb0a4a893ab36b4e93cdc, type: 2}
+  - {fileID: 1644492914194942, guid: ad8b847a4255e4c4ca0a70c693cfd98f, type: 2}
+  - {fileID: 1895792557017488, guid: 73907949bd8bc34458e3a6b27d330ff0, type: 2}
+  - {fileID: 1423871928915658, guid: 56be6788300badc4189505259f6f0e9c, type: 2}
+  - {fileID: 1185589418386774, guid: 0a7de4dd34a55a740857d9445d2e9fa3, type: 2}
+  boots:
+  - {fileID: 1811017101680646, guid: c67bf0b05d599514b8cc1f9a5b83076b, type: 2}
+  - {fileID: 1861968428881264, guid: a6fb6ff675749e141af728c882169303, type: 2}
+  - {fileID: 1482385293452248, guid: 312855ed38f3d4842b0a3ebeaf6dd25d, type: 2}
+  - {fileID: 1062947540217634, guid: fdafdcfb20841994e8078152f31d7baf, type: 2}
+  - {fileID: 1592398472691224, guid: 90760666d277b39428ae729d78f746fe, type: 2}
+  - {fileID: 1715615024418732, guid: 4e8077f8f4757a841bb55f3325eda628, type: 2}
+  - {fileID: 1132630606995462, guid: 5d764aed95c321a4cb41b9a8717b8c1c, type: 2}
+  enchantments:
+  - {fileID: 1530181856723574, guid: 29391d624fbf27d48a48d80fc753f001, type: 2}
+  - {fileID: 1455690763518978, guid: 99ea8a7c302753c4483f15247958a93b, type: 2}
+  - {fileID: 1772850640924884, guid: 9e23a37fad690ec41b6b918de4a1da27, type: 2}
+  - {fileID: 1505524640855274, guid: 6509fe107189fa14cb28001386fb42cf, type: 2}
+  potions:
+  - {fileID: 1802038497383242, guid: c4eeaedd5befec54eb81998bbe4526fc, type: 2}
+  - {fileID: 1573721796869494, guid: bb9a1fc282480a8479ec23545991eeed, type: 2}
+  - {fileID: 1622699015634138, guid: cfb71a26f610ec6439621e09e496757c, type: 2}
+  food:
+  - {fileID: 1285090806757038, guid: e4f542471dc59c847950aef2df75ad2d, type: 2}
+  - {fileID: 1375674869187090, guid: 940d39b9434b9d943833b6ed57976f2c, type: 2}
+  - {fileID: 1465751307389818, guid: cdf628d48ef7ced4f8c7172cc3be09ed, type: 2}
+  - {fileID: 1925759465378568, guid: 706383958635dcd4da4453ad48ccd1bd, type: 2}
+  - {fileID: 1942180268013602, guid: e7180cc411a85c14aa64761dba69cb63, type: 2}
+  - {fileID: 1399413139857178, guid: c0b24cedbdc277d4c952af40b3e497f0, type: 2}
+  gold: {fileID: 1700760309775030, guid: 1a52955eaf411f348842fc819a9233e2, type: 2}

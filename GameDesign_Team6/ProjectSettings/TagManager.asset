@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Projectile
+  - Exit
+  - Wall
+  - GridBox
+  - GameManager
+  - NPC
+  - HealthBar
+  - CooldownBar
+  - LootDropper
+  - Item
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Wall
+  - Minimap Indicators
+  - Player
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 238060689
+    locked: 0
+  - name: Enemy
+    uniqueID: 2384955505
+    locked: 0
+  - name: Player
+    uniqueID: 1932740175
+    locked: 0
+  - name: Weapons
+    uniqueID: 741414475
+    locked: 0
+  - name: UI Popup
+    uniqueID: 847866631
+    locked: 0
