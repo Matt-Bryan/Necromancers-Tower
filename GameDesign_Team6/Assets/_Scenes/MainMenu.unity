@@ -1754,7 +1754,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'W - Up
 
@@ -1762,7 +1762,9 @@ MonoBehaviour:
 
     S - Right
 
-    D - Down'
+    D - Down
+
+    H - Haungs Mode'
 --- !u!222 &1087084196
 CanvasRenderer:
   m_ObjectHideFlags: 0

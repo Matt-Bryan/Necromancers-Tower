@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour {
 	public GameObject hudPrefab;
 	
 	public int levelNum = 1;
-	public int bossLevelNum = 2;
+	private int bossLevelNum = 15;
 	public string curScene;
 	public GameObject levelGen;
     public GameObject dropLoot;
@@ -102,7 +102,20 @@ public class GameManager : MonoBehaviour {
 		else if (curScene == "Main") {
 			// Main Scene
 		}
+
+        if (Input.GetKeyDown("h")) {
+            enableHaungs();
+        }
 	}
+
+    private void enableHaungs() {
+        player.GetComponent<PlayerController>().maxHealthPoints += 10000;
+        player.GetComponent<PlayerController>().healthPoints += 10000;
+        player.GetComponent<PlayerController>().attackDamage += 100;
+        int gp = player.GetComponent<PlayerController>().getPlayerGold();
+        player.GetComponent<PlayerController>().setPlayerGold(gp + 100000);
+    }
+
 	private void createHudInstance() {
 		hudInstance = (GameObject)Instantiate(hudPrefab, Vector2.zero, Quaternion.identity);
 		hudInstance.GetComponent<HUD_Manager>().setLevel(levelNum);
