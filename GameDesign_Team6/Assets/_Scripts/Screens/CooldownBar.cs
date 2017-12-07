@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * People that worked on this script: 
+ * Allison Lee
+**/
+
 public class CooldownBar : MonoBehaviour {
 
 	private GameObject player;

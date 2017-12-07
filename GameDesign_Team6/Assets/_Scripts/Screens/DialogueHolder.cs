@@ -2,7 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/*
+/**
+ * People that worked on this script: 
+ * Lauren Kirk
+ *
+ *
  * Future Improvements:
  *   (1) Must hold spacebar down to see dialogue. Maybe click
  *       once to activate and click again to deactivate.

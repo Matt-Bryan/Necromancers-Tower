@@ -6,6 +6,7 @@ using UnityEngine;
  * People that worked on this script:
  * Will Belden Brown
  * Matthew Stewart
+ * Matt Bryan
 **/
 
 public class DropLoot : MonoBehaviour {
@@ -57,6 +58,7 @@ public class DropLoot : MonoBehaviour {
             spawnGold(1);
         }
 
+        // WILL'S OLD DROP RATES
         //minor magic item (1), medium magic item (2), major magic item (3)
         //cases 1-5 for enemy drops based on enemy level, case 6 for random items in shop
         /*switch (enemyTier) {

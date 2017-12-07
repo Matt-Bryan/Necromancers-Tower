@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 
 /*
+ * People that worked on this script: 
+ * Lauren Kirk
+ *
+ *
  * Future Improvements:
  *   (1) Fix bug where first line of dialogue is not being displayed.
  *   (1) Clean up code.

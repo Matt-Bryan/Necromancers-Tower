@@ -3,6 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/**
+ * People that worked on this script: 
+ * Jordan Barham
+ *
+ * This script has been deprecated, as there is no inventory system
+**/
+
 public class Inventory : MonoBehaviour {
 
 	public const int numItemSlots = 8;

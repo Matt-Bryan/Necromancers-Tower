@@ -2,7 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/*
+/**
+ * People that worked on this script: 
+ * Lauren Kirk
+ *
+ *
  * Script that displays "helpful" text when player enters the triggerTextZone.
  */
 public class HelpDialogue : MonoBehaviour {

@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/**
+ * People that worked on this script: 
+ * Will Belden Brown, Lauren Kirk, Matt Bryan
+**/
+
 public class HealthText : MonoBehaviour {
 
 	private GameObject player;

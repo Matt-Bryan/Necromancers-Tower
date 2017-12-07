@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * People that worked on this script: 
+ * Matt Bryan
+**/
+
 public class SkeletonCircle : MonoBehaviour {
 
 	public float circleAlphaChange = 0.05f;

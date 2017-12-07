@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+ * People that worked on this script: 
+ * Matt Bryan
+ *
+ * This script is deprecated, as we have a different way we show health
+**/
+
 public class LifeSprite : MonoBehaviour {
 
 	public Sprite[] spriteList = new Sprite[3];

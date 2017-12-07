@@ -1,6 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/**
+ * People that worked on this script: 
+ * Lauren Kirk
+**/
+
 public class CameraController : MonoBehaviour
 {
 

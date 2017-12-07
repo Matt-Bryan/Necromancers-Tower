@@ -3,7 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-/*
+/**
+ * People that worked on this script: 
+ * Lauren Kirk
+ *
+ *
  * Manages the canvas object that holds the help dialogue's text and text box
  */
 public class HelpDialogueManager : MonoBehaviour {

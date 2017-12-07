@@ -4,8 +4,8 @@ using UnityEngine;
 
 /* People who touched this script:
  * Allison Lee
-    Matt Bryan (i stole lots of matt's code for his skeleton because i'm a terrible person)
-    Lauren Kirk (Many functions copied from FlyingMonster)
+   Matt Bryan (i stole lots of matt's code for his skeleton because i'm a terrible person)
+   Lauren Kirk (Many functions copied from FlyingMonster)
 */
 
 public class NecromancerController : EnemyController {

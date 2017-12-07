@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /**
- * People that touched this script: Will's too strong
+ * People that touched this script: Will Belden Brown
 **/
 
 //written by Will Belden Brown

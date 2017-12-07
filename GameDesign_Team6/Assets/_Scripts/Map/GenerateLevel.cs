@@ -4,8 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 /**
- * People that touched this script: It's all Will, man
- * A true hero
+ * People that touched this script: Will Belden Brown
 **/
 
 //written by Will Belden Brown

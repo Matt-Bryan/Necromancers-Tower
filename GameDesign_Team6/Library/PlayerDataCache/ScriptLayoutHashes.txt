@@ -152,6 +152,7 @@ f81b82b3cb18f6bce2f4573d7f0c04e8 Assembly-CSharp.dll:.OLD_EnemyController
 be943d06b0350d9a1f46e51cb0b77972 Assembly-CSharp.dll:.DialogueManager
 8fd174bbb759146c0a1496c6e5ce1572 Assembly-CSharp.dll:.SkeletonCircle
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.HealthBar
+5cbebd1e0bbe98946fa1dd2efde028f7 Assembly-CSharp.dll:.NecromancerController
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -194,4 +195,3 @@ b7ba448f2ffd1c985b15077fc1c21d00 Assembly-CSharp.dll:.OLD_PlayerController
 1665c705f97cbf1a8e5f5ee08c451649 Assembly-CSharp.dll:.Leaf
 01977cc2bf8607f6bef88066194cf672 Assembly-CSharp.dll:.LevelLoader
 879549eeb20ce7b53c4bf2c6868f38bc Assembly-CSharp.dll:.HealthText
-5cbebd1e0bbe98946fa1dd2efde028f7 Assembly-CSharp.dll:.NecromancerController
